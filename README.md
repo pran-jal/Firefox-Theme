@@ -1,2 +1,2 @@
 # Firefox-Theme
-> - *Best Firefox Theme*
+*Best Firefox Themes*
