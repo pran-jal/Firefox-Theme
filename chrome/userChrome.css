@@ -1,0 +1,5 @@
+:root[lwt-newtab-brighttext] {
+  color-scheme: dark;
+  --newtab-background-color: #011627;
+  --newtab-background-color-secondary: #011627;
+}
