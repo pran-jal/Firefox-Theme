@@ -3,3 +3,34 @@
   --newtab-background-color: #011627;
   --newtab-background-color-secondary: #011627;
 }
+
+:root {
+  &:not([lwttheme]) {
+    --avatar-image-url: url("https://profile.accounts.firefox.com/v1/avatar/p");
+    --lwt-additional-images: url(moz-extension\:\/\/7d1cdd59-654c-4a7e-b6ad-882c8c2ddc8b\/images\/bg-000-5672c42860d5b06e1058dc477397f3ef\.svg);
+    --lwt-accent-color: rgb(1, 22, 39);
+    --lwt-text-color: rgba(154, 166, 166);
+    --arrowpanel-background: rgb(1, 22, 39);
+    --arrowpanel-color: rgb(255, 255, 255);
+    --arrowpanel-border-color: rgb(0, 255, 255);
+    --toolbar-field-background-color: rgb(1, 17, 29);
+    --toolbar-bgcolor: rgb(1, 22, 39);
+    --toolbar-color: rgb(167, 175, 173);
+    --toolbar-field-color: rgb(158, 175, 175);
+    --toolbar-field-border-color: rgba(0, 0, 0, 0);
+    --toolbar-field-focus-background-color: rgba(1, 17, 29, 1);
+    --toolbar-field-focus-color: rgb(158, 175, 175);
+    --newtab-background-color: rgb(1, 22, 39);
+    --lwt-accent-color-inactive: rgb(1, 22, 39);
+    --lwt-background-alignment: top;
+    --lwt-background-tiling: repeat;
+    --tab-loading-fill: rgb(0, 255, 255);
+    --lwt-tab-line-color: rgb(0, 255, 255);
+    --tabs-navbar-separator-color: rgb(1, 22, 39);
+    --chrome-content-separator-color: rgb(1, 22, 39);
+    --toolbarbutton-hover-background: rgb(0, 0, 0);
+    --sidebar-background-color: rgb(1, 22, 39);
+    --sidebar-border-color: rgb(1, 22, 39);
+    --tabpanel-background-color: rgb(1, 22, 39);
+  }
+}
