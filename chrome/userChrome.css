@@ -10,12 +10,18 @@
   --arrowpanel-background: rgb(1, 22, 39) !important;
   --toolbarbutton-border-radius: 15px !important;
   --toolbar-bgcolor: #011627 !important;
+  --tabpanel-background-color: #011627 !important;
 }
 
-#urlbar-background,
-#searchbar {
+/* #urlbar {
+  border-radius: var(--toolbarbutton-border-radius);
+} */
+
+#urlbar-background {
   border: 2px solid rgb(0, 255, 255) !important;
+  /* border: medium solid rgb(0, 255, 255) !important; */
   background-color: rgb(1, 15, 25) !important;
+  /* border: 0px solid transparent !important; */
 }
 
 
@@ -26,3 +32,23 @@
 #unified-extensions-button>image:nth-child(1) {
   border-radius: 0px !important;
 }
+
+/* #titlebar {
+  order: 2 !important;
+} */
+
+/* main toolbar */
+/* #nav-bar {
+  order: 0 !important;
+  border-top-width: 0px !important;
+} */
+
+/* bookmarks toolbar */
+/* #PersonalToolbar {
+  order: 1 !important;
+} */
+
+/* Tabs bar */
+/* #TabsToolbar {
+  order: 2 !important;
+} */
