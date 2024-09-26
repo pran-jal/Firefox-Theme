@@ -2,20 +2,41 @@
   color-scheme: dark;
   --newtab-background-color: #011627 !important;
   --newtab-background-color-secondary: #011627 !important;
+
+  /* --newtab-text-primary-color: #fbfbfe; */
+  /* --newtab-contextual-text-primary-color: light-dark(#15141a, var(--newtab-text-primary-color)); */
+  /* --newtab-primary-action-background-pocket: #00ddff; */
+  /* --newtab-primary-action-background-pocket-dimmed: color-mix(in srgb, var(--newtab-primary-action-background) 25%, transparent); */
+  /* --newtab-primary-element-hover-color: color-mix(in srgb, var(--newtab-primary-action-background) 55%, #FFF); */
+  /* --newtab-primary-element-hover-pocket-color: color-mix(in srgb, var(--newtab-primary-action-background-pocket) 55%, #FFF); */
+  /* --newtab-element-active-color: color-mix(in srgb, var(--newtab-background-color) 60%, #FFF); */
+  /* --newtab-element-secondary-color: color-mix(in srgb, currentColor 10%, transparent); */
+  /* --newtab-element-secondary-hover-color: color-mix(in srgb, currentColor 17%, transparent); */
+  /* --newtab-element-secondary-active-color: color-mix(in srgb, currentColor 30%, transparent); */
+  /* --newtab-border-color: color-mix(in srgb, var(--newtab-background-color) 75%, #FFF); */
+  /* --newtab-primary-element-text-color: #011627; */
+  /* --newtab-status-success: #7C6; */
 }
 
-.search-handoff-button,
-.search-wrapper input {
+.search-handoff-button {
   border-radius: 30px !important;
-  box-shadow: 0 0 40px 10px rgba(0, 255, 255, 1) !important;
-  border: thin solid #00FFFF !important;
+  box-shadow: 0 0 30px 8px rgba(0, 255, 255, 1) !important;
+  /* border: 0px solid #00FFFF !important; */
 }
 
-.top-site-outer .tile,
+.tile,
 .card {
   box-shadow: 0 0 10px 1px rgba(0, 255, 255, 1) !important;
   background-color: var(--newtab-background-color-secondary) !important;
 }
+
+.top-site-button :hover {
+  background-color: transparent !important;
+}
+
+/* .top-site-button.tile:hover {
+  box-shadow: 0 0 15px 4px rgba(0, 255, 255, 1) !important;
+} */
 
 @media not (prefers-contrast) {
   html.private {
