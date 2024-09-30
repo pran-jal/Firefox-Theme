@@ -1,36 +1,44 @@
 :root {
-  color-scheme: dark;
-  --newtab-background-color: #011627 !important;
-  --newtab-background-color-secondary: #011627 !important;
-  --sidebar-background-color: #011627 !important;
-  --toolbox-bgcolor: #011627 !important;
-  --button-hover-bgcolor: rgb(1, 15, 25) !important;
-  --tab-selected-outline-color: rgb(0, 255, 255) !important;
-  --tab-selected-bgcolor: transparent !important;
-  --arrowpanel-background: rgb(1, 22, 39) !important;
-  --toolbarbutton-border-radius: 15px !important;
-  --toolbar-bgcolor: #011627 !important;
-  --tabpanel-background-color: #011627 !important;
+    color-scheme: dark;
+    --background-color: #011627;
+    --highlight-color: #00ffff;
+    --newtab-background-color: var(--background-color) !important;
+    --newtab-background-color-secondary: var(--background-color) !important;
+    --sidebar-background-color: #011627 !important;
+    --toolbox-bgcolor: #011627 !important;
+    --button-hover-bgcolor: rgb(1, 15, 25) !important;
+    --tab-selected-outline-color: var(--highlight-color) !important;
+    --tab-selected-bgcolor: transparent !important;
+    --arrowpanel-background: rgb(1, 22, 39) !important;
+    --toolbarbutton-border-radius: 15px !important;
+    --toolbar-bgcolor: #011627 !important;
+    --tabpanel-background-color: #011627 !important;
 }
 
-/* #urlbar {
-  border-radius: var(--toolbarbutton-border-radius);
-} */
+#urlbar {
+    border-radius: var(--toolbarbutton-border-radius);
+}
 
 #urlbar-background {
-  border: 2px solid rgb(0, 255, 255) !important;
-  /* border: medium solid rgb(0, 255, 255) !important; */
-  background-color: rgb(1, 15, 25) !important;
-  /* border: 0px solid transparent !important; */
+    border: 2px solid rgb(0, 255, 255) !important;
+    /* border: medium solid rgb(0, 255, 255) !important; */
+    background-color: rgb(1, 15, 25) !important;
+    /* border: 0px solid transparent !important; */
 }
 
-
 #navigator-toolbox {
-  background-color: #011627 !important;
+    background-color: #011627 !important;
 }
 
 #unified-extensions-button>image:nth-child(1) {
-  border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+menupopup,
+panel {
+    --panel-background: var(--background-color) !important;
+    --panel-border-color: var(--highlight-color) !important;
+    --panel-shadow: 0 0 5px var(--highlight-color) !important;
 }
 
 /* #titlebar {
